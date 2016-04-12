@@ -1,0 +1,95 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.carousel-inner {
+    z-index: -1;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+}
+
+.container .text-muted {
+    margin: 10px 0;
+}
+
+/* HEADER */
+#header {
+    max-width: 100%; 
+    position: relative;
+}
+
+/* PROFILE */
+#profile {
+    float: right; 
+    width: 150px;
+}
+
+/* NAME */
+#name {
+    color: white; 
+    position: relative;
+    text-decoration: none;
+    z-index: 2;
+}
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* NAVBAR */
+.navbar-primary .navbar {
+    border-bottom: none; 
+}
+.navbar-primary .navbar .nav > li > a {}
+.navbar-primary .navbar .nav > li > a:hover {}
+.navbar-primary .navbar .nav .active > a, .navbar .nav .active > a:hover {}
+.navbar-primary .navbar .nav li > a .caret, .tnav .navbar .nav li > a:hover .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+.navbar-primary .navbar .nav > li.dropdown.open.active > a:hover {}
+.navbar-primary .navbar .nav > li.dropdown.open > a {
+    border-color: #fff;
+}
+.navbar-primary .navbar .nav > li.dropdown.open.active > a:hover .caret, .tnav .navbar .nav > li.dropdown.open > a .caret {
+    border-top-color: #fff;
+}
+.navbar-primary .navbar .navbar-brand {}
+.navbar-primary .navbar .nav.pull-right {
+    margin-left: 10px; 
+    margin-right: 0;
+}
+.navbar-sm .navbar-primary .navbar { 
+    min-height: 40px; 
+    height: 40px;
+}
+.navbar-sm .navbar-primary .navbar .navbar-brand {
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 40px; 
+}
+.navbar-sm .navbar-primary .navbar .navbar-nav > li > a {
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    line-height: 40px; 
+}
+
